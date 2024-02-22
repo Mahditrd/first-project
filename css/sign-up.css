@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/imges/dark_tint.png), url(/imges/bokeh_car_lights_bg.jpg)
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+input{
+    margin-top: 30px;
+    padding-left: 25px;
+    height: 40px;
+    width: 240px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.658);
+}
